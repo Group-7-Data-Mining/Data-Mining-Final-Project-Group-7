@@ -31,9 +31,9 @@ The 20 columns are:
 - **Days PM10**: Number of days where Particulate Matter PM10 was the main pollutant  
 
 ## METHODS
+- For Preprocessing, two columns were removed which was (FIPS, YEAR) and (year) this missing values were checked for and any rows that had missing values like (NaN) were dropped then numeric features were standardizes and the cleaned dataset was checked by listing columns and showing the five first rows.
 - Clustering will be the main model of use as it will allow us to see patterns between pollutant concentrations and negative health outcomes. Two clustering models will be created with standardized and non–standardized data. Both models will be compared to see if standardization improves the model’s grouping of data points.
 - Linear Regression will be the secondary model that will be used in predicting the number of respiratory and cardiovascular cases and hospital admissions. The goal will be figuring out if one certain type of pollutant is better at predicting the number of negative health impacts.  Multivariable regression is potentially being considered along with creating single-variable models for each type of pollutant. 
-
 
 
 ## EVALUATION
