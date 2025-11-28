@@ -37,6 +37,11 @@ The 20 columns are:
 
 
 ## EVALUATION
+We will evaluate model performance using:
+Regression Metrics: MAE, RMSE, Coefficient of Determination(R-squared) to measure predictive accuracy
+Clustering Metrics: Elbow method to find optimal clusters.
+Visual Analysis: Scatter plots, heatmaps, and trend visualizations to interpret model insights.
+The evaluation will focus on both statistical performance and interpretability – determining which pollutants have the most significant impact on health outcomes. 
 
 
 ## CONCLUSION/STORYTELLING
