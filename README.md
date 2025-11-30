@@ -48,3 +48,8 @@ The evaluation will focus on both statistical performance and interpretability �
 
 
 ## IMPACT
+Our project provides meaningful insights by examining public health outcomes through environmental data. While our models show that air quality explains only a small portion of respiratory death rate variation, the patterns we identified can still support public health planning and raise awareness of environmental risks.
+Identifying clusters with higher numbers of poor-air-quality days helps highlight regions where pollution may influence health outcomes. These insights can assist local agencies in prioritizing monitoring, interventions, and environmental improvements. The results also reinforce that air quality is only one factor among many that contribute to respiratory health.
+However, there is potential for misinterpretation. Low R² values may lead some to incorrectly assume that pollution has little impact, which could weaken environmental protections or overlook communities facing broader socioeconomic or healthcare challenges. There is also a risk of misuse if the findings are treated as definitive, as the limited predictive power reflects gaps in the data—not an absence of environmental harm.
+To avoid these issues, our results should be communicated as exploratory and paired with clear explanations of the dataset’s limitations. Future analyses should incorporate additional social and health-related variables to produce more comprehensive and responsible insights.
+
